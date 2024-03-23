@@ -15,7 +15,7 @@ const dataSkillsLeft = [
         id: 1,
         dotSkill: "",
         iconSkill: "bx bxl-angular skill-icon",
-        nameSkill: " Angular > 2+"
+        nameSkill: " Angular 2+"
     },
 ];
 const dataSkillsRight = [

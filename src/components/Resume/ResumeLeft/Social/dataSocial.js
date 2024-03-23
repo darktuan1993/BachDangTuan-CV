@@ -2,7 +2,7 @@ const dataSocial = [
     {
         href:"https://google.com",
         icon: "bx bxl-facebook-circle socialRS__icon",
-        name: "@bachdangtuan"
+        name: "bachdangtuan"
     },
     // {
     //     href:"https://google.com",
