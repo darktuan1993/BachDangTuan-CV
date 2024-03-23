@@ -12,7 +12,7 @@ function InterestRS() {
   })
   return (
     <section className="interestsRS sectionRS" id="interests">
-      <h2 className="sectionRS-title text-h2">Application for Work</h2>
+      <h2 className="sectionRS-title text-h2">Develop Application for Work</h2>
       <div className="interestsRS__container bd-gridRS">
         {data}
       </div>

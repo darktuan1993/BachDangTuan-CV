@@ -9,7 +9,7 @@ function CertificateRS() {
                 <img
                     src={data.image}
                     alt="Girl in a jacket"
-                    width="50" height="50"/>
+                    width="30" height="30"/>
                 <h4 className="certificateRS__title text-h4">{data.title}</h4>
             </div>
 

@@ -19,7 +19,6 @@ function ResumeLeft(props) {
             {/*<Work/>*/}
             <SkillRS/>
             <CertificateRS/>
-
         </div>
     );
 }

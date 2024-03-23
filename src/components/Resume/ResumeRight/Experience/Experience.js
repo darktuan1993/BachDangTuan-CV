@@ -16,16 +16,16 @@ function ExperienceRS() {
                         </h3>
                         <a href={data.link} target="_blank" rel="noreferrer"
                            className="experienceRS__company">{data.link}</a>
-                        <p className="experienceRS__description"> Vị trí: {data.position}</p>
-                        <p className="experienceRS__description">- {data.usedTech}</p>
-                        <p className="experienceRS__description">- {data.descripttion}</p>
-                        <p className="experienceRS__description">- {data.descripttion2}</p>
-                        <p className="experienceRS__description">- {data.descripttion3}</p>
-                        <p className="experienceRS__description">- {data.descripttion4}</p>
-                        <p className="experienceRS__description">- {data.descripttion6}</p>
-                        <p className="experienceRS__description">- {data.descripttion7}</p>
-                        <p className="experienceRS__description">- {data.descripttion8}</p>
-                        <p className="experienceRS__description">- {data.descripttion5}</p>
+                        <p className="experienceRS__description" > Position: {data.position}</p>
+                        <p className="experienceRS__description">{data.usedTech}</p>
+                        <p className="experienceRS__description">{data.descripttion}</p>
+                        <p className="experienceRS__description">{data.descripttion2}</p>
+                        <p className="experienceRS__description">{data.descripttion3}</p>
+                        <p className="experienceRS__description">{data.descripttion4}</p>
+                        <p className="experienceRS__description">{data.descripttion6}</p>
+                        <p className="experienceRS__description">{data.descripttion7}</p>
+                        <p className="experienceRS__description">{data.descripttion8}</p>
+                        <p className="experienceRS__description">{data.descripttion5}</p>
                     </div>
                 </div>
             </div>
