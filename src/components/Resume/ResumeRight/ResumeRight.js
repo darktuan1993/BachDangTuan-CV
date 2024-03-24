@@ -16,7 +16,7 @@ function ResumeRight() {
             {/*<CertificateRS/>*/}
             {/*<ReferenceRS/>*/}
             {/*<LanguageRS/>*/}
-            <EducationRS/>
+            {/*<EducationRS/>*/}
             <InterestRS/>
         </div>
     );

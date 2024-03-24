@@ -7,6 +7,7 @@ import SkillRS from "./Skills/Skills";
 import SocialRS from "./Social/Social";
 import Work from "./Work/Work";
 import CertificateRS from "../ResumeRight/Certificates/Certificates";
+import HobbieRS from "./Hobbie/Hobbie";
 
 function ResumeLeft(props) {
 
@@ -16,9 +17,10 @@ function ResumeLeft(props) {
             <SocialRS/>
             {/*<ProfileRS />*/}
             {/*<EducationRS/>*/}
-            {/*<Work/>*/}
             <SkillRS/>
             <CertificateRS/>
+            <Work/>
+            <HobbieRS/>
         </div>
     );
 }

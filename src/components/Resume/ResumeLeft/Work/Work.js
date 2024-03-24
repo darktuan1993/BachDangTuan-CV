@@ -21,7 +21,7 @@ function Work() {
   });
   return (
     <section className="educationRS sectionRS" id="education">
-      <h2 className="sectionRS-title text-h2">Working</h2>
+      <h2 className="sectionRS-title text-h2">Education</h2>
 
       <div className="educationRS__container bd-gridRS">{dataWork}</div>
     </section>

@@ -1,14 +1,14 @@
 const dataWorks =[
     {
-        eduTitle:"Cybersoft Academy",
-        eduCourse:"Web developer Intern",
+        eduTitle:"Học Viện Kĩ Thuật Mật Mã",
+        eduCourse:"An Toàn Thông Tin",
         eduTimes: "2021-2021",
         line: "educationRS__line"
     },
     {
-        eduTitle:"VNG Corporation",
-        eduCourse:"Staff Executive eSport",
-        eduTimes: "2019-2021",
+        eduTitle:"Linux Foundation CNCF",
+        eduCourse:"Dev/Devops/SysAdmin",
+        eduTimes: "2017-now",
         line: "educationRS__line"
     },
 ]
