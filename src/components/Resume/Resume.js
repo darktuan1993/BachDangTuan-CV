@@ -7,22 +7,25 @@ import ScrollTopRS from "./ScrollTop/ScrollTopRS";
 import "./Resume.css";
 
 function Resume() {
-  document.body.classList.add("resumeCV-bg");
+    document.body.classList.add("resumeCV-bg");
 
-  
 
-  return (
-    <div>
-      <NavbarRS />
-      <main className="l-mainRS bd-containerRS">
-        <div className="resume" id="area-cv">
-          <ResumeLeft />
-          <ResumeRight />
+    return (
+        <div>
+            <NavbarRS/>
+            <main className="l-mainRS bd-containerRS">
+                <div className="resume" id="area-cv">
+                    <ResumeLeft/>
+                    <ResumeRight/>
+                </div>
+                <div style={{textAlign: "center"}}>
+                    <a>Development by D4rkTuaz™</a>
+
+                </div>
+            </main>
+            <ScrollTopRS/>
         </div>
-      </main>
-      <ScrollTopRS />
-    </div>
-  );
+    );
 }
 
 export default Resume;
