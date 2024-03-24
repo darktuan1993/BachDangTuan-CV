@@ -18,7 +18,7 @@ function CertificateRS() {
     });
     return (
         <section className="certificateRS sectionRS" id="certificates">
-            <h2 className="sectionRS-title text-h2">Certificates</h2>
+            <h2 className="sectionRS-title text-h2">Certificates & Verify</h2>
             {data}
            <a href="cert">== Xem thêm tại đây == </a>
         </section>

@@ -1,16 +1,16 @@
 const dataExp = [
-    {
-        title: "VNPAY-Công Ty Cổ Phần Thanh Toán Việt Nam",
-        times: "10/2023 -  Present",
-        link: "https://vnpay.vn",
-        usedTech: "",
-        descripttion: "",
-        line: "",
-        position: "",
-    },
+    // {
+    //     title: "VNPAY-Công Ty Cổ Phần Thanh Toán Việt Nam",
+    //     times: "10/2023 -  Present",
+    //     link: "https://vnpay.vn",
+    //     usedTech: "",
+    //     descripttion: "",
+    //     line: "",
+    //     position: "",
+    // },
     {
         title: "Isofh MedTech Company",
-        times: "7/2022 -  10/2023",
+        times: "7/2022 -  nay",
         link: "https://isofh.com",
         usedTech: "- Lên kiến trúc dự án mới (vẽ sơ đồ luồng hoạt động, mô hình kiến trúc kết nối của ứng dụng High Availability) ",
         descripttion: "- Quản trị app HIS/EMR 25 dự án của cty cho các bệnh viện  trên nền tảng container/docker host",
@@ -61,6 +61,8 @@ const dataExp = [
         // link: "https://jtexpress.vn/",
         usedTech: "",
         descripttion: "- Tư vấn lắp đặt phần cứng, camera giám sát, ổ lưu trữ NAS",
+        descripttion2: "- Support end user",
+        descripttion3: "- Develop website outsource",
         line: "",
         position: "IT",
     }

@@ -2,13 +2,13 @@ const dataSocial = [
     {
         href:"https://google.com",
         icon: "bx bxl-facebook-circle socialRS__icon",
-        name: "bachdangtuan"
+        name: "fb.com/bachdangtuan"
     },
-    // {
-    //     href:"https://google.com",
-    //     icon: "bx bxl-instagram socialRS__icon",
-    //     name: "@dunghohuynh"
-    // },
+    {
+        href: "https://google.com",
+        icon: "bx bxl-github socialRS__icon",
+        name: "github.com/bachdangtuan"
+    },
    
 ];
 

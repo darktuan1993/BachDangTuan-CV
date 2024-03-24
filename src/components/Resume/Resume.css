@@ -212,6 +212,7 @@ p {
     color: var(--title-color-rs);
     font-weight: var(--font-medium-rs);
 }
+
 .text-h4 {
     color: var(--title-color-rs);
     font-weight: var(--font-small-rs);
@@ -578,8 +579,12 @@ img {
 
 .interestsRS__content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+}
+
+.interestsRS__name {
+    padding-left: 1rem;
 }
 
 .interestsRS__icon {

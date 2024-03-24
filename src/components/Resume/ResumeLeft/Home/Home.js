@@ -40,7 +40,7 @@ function HomeRS(props) {
         />
         <div className="homeRS__container sectionRS bd-gridRS">
             <div className="homeRS__data bd-gridRS">
-                {/*<img src={me} alt="avt" className="homeRS__img"/>*/}
+                <img src={me} alt="avt" className="homeRS__img"/>
                 <h1 className="homeRS__title text-h1">BẠCH ĐĂNG TUẤN</h1>
                 <h2 className="homeRS__profession text-h3">Devops / SRE / System Admin </h2>
                 <div className="button-download">
