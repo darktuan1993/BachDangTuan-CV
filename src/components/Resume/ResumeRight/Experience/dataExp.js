@@ -10,7 +10,7 @@ const dataExp = [
     // },
     {
         title: "Isofh MedTech Company",
-        times: "7/2022 -  nay",
+        times: "8/2022 -  10/2023",
         link: "https://isofh.com",
         usedTech: "- Plan new architecture (draw flow activity diagram, architectural connection model of High Availability application)",
         descripttion: "- Management of HIS/EMR application for 25 company projects for hospitals on On-premise platform, Cloud Computing",
