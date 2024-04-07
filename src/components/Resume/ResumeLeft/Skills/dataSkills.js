@@ -17,6 +17,12 @@ const dataSkillsLeft = [
         iconSkill: "bx bxl-angular skill-icon",
         nameSkill: " Angular 2+"
     },
+    {
+        id: 1,
+        dotSkill: "",
+        iconSkill: "bx bxl-react skill-icon",
+        nameSkill: " React JS"
+    },
 ];
 const dataSkillsRight = [
     {
@@ -28,6 +34,12 @@ const dataSkillsRight = [
     {
         id: 1,
         dotSkill: "",
+        iconSkill: "bx bxl-windows skill-icon",
+        nameSkill: " Power shell"
+    },
+    {
+        id: 1,
+        dotSkill: "",
         iconSkill: "bx bxl-go-lang skill-icon",
         nameSkill: " Golang"
     },
@@ -35,7 +47,7 @@ const dataSkillsRight = [
         id: 1,
         dotSkill: "",
         iconSkill: "bx bx-file skill-icon",
-        nameSkill: " YAML/YML"
+        nameSkill: " YAML/HELM"
     },
 
 ];
