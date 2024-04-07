@@ -1,7 +1,9 @@
 import React from "react";
 import dataCer from "./dataCer";
+import {useTranslate} from "../../../../i18n/translate";
 
 function CertificateRS() {
+    const chuyenNgonNgu = useTranslate()
     const data = dataCer.map((data) => {
         return (
 
@@ -18,9 +20,9 @@ function CertificateRS() {
     });
     return (
         <section className="certificateRS sectionRS" id="certificates">
-            <h2 className="sectionRS-title text-h2">Certificates & Verify</h2>
+            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("Certificates & Verify")}</h2>
             {data}
-           <a href="cert">== Xem thêm tại đây == </a>
+           <a href="cert">== {chuyenNgonNgu("more")} == </a>
         </section>
     );
 }

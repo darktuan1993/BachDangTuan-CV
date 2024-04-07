@@ -25,17 +25,17 @@ function NavbarRS() {
 
   return (
     <header className="l-headerRS" id="header">
-      <div className="navRS bd-containerRS">
-        <a href="/#" className="navRS__logo">
-          Bạch Đăng Tuấn
-        </a>
-        <div className="navRS__menu" id="navRS-menu">
-          <ul className="navRS__list">{data}</ul>
+        <div className="navRS bd-containerRS">
+            <a href="/#" className="navRS__logo">
+                Bạch Đăng Tuấn
+            </a>
+            <div className="navRS__menu" id="navRS-menu">
+                <ul className="navRS__list">{data}</ul>
+            </div>
+            <div className="navRS__toggle" onClick={toggleMenu}>
+                <i className="bx bx-grid-alt navRS__icon"/>
+            </div>
         </div>
-        <div className="navRS__toggle" onClick={toggleMenu}>
-          <i className="bx bx-grid-alt navRS__icon" />
-        </div>
-      </div>
     </header>
   );
 }
