@@ -19,7 +19,7 @@
   "more": "xem thêm",
 
   "Position: ": "Vị trí: ",
-  "- Plan new architecture (draw flow activity diagram, architectural connection model of High Availability application)": "- Lên kế mô hình hoạt động đảm bảo tính sẵn sàng của hệ thống khi triển khai dự án mới, số lượng server cần thiết và nền tảng vận hành",
+  "- Plan new architecture (draw flow activity diagram, architectural connection model of High Availability application)": "- Lên kế mô hình hoạt động đảm bảo tính sẵn sàng của hệ thống khi triển khai dự án mới, số lượng server cần thiết và môi trường triển khai ứng dụng",
   "- Management of HIS/EMR application for 25 company projects for hospitals on On-premise platform, Cloud Computing": "- Quản trị app HIS/EMR 25 dự án của cty cho các bệnh viện  trên nền tảng On-premise, điện toán đám mây.(4 dự án trên AWS, 2 dự án chạy cloud Sunteco và Viettel Cloud)",
   "- Build centralized monitoring alert system Prometheus for ~400 VMs": "- Xây dựng hệ thống cảnh báo giám sát tập trung Prometheus cho ~400 VM, 3500 service container",
   "- Setup, Fix, Tuning job build CI/CD Jenkins for project build": "- Triển khai cài đặt, sửa lỗi, tunning job build CI/CD Jenkins cho các dự án",
