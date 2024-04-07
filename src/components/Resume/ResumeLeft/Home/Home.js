@@ -46,7 +46,7 @@ function HomeRS(props) {
             title="Theme"
             id="theme-button"
         />
-        <div  className="change-language">
+        <div className="change-language">
             <select onChange={changeLanguage}>
                 <option value="vie">Tiếng Việt</option>
                 <option value="eng">English</option>
@@ -55,21 +55,24 @@ function HomeRS(props) {
         <div className="homeRS__container sectionRS bd-gridRS">
             <div className="homeRS__data bd-gridRS">
                 <img src={me} alt="avt" className="homeRS__img"/>
-                <h1 className="homeRS__title text-h1">{chuyenNgonNgu("name")}</h1>
+                <h1 className="homeRS__title text-h1">{chuyenNgonNgu("BACH DANG TUAN")}</h1>
                 <h2 className="homeRS__profession text-h3">Devops / SRE / System Admin </h2>
                 <div className="button-download">
                     <button title="Generate PDF" id="resume-button" className="btn-grad"
                             onClick={clickGene}>
-                        {chuyenNgonNgu("download")}
+                        {chuyenNgonNgu("download cv")}
                     </button>
                 </div>
             </div>
             <div className="homeRS__address bd-gridRS">
-          <span className="homeRS__infomartion">
-            <i className="bx bx-map homeRS__icon"/> {chuyenNgonNgu("diachi")}
+                <span className="homeRS__infomartion">
+            <i className="bx bx-calendar homeRS__icon"/> 27-02-1993
           </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("email")}
+            <i className="bx bx-map homeRS__icon"/> {chuyenNgonNgu("Hoang Mai, Ha Noi")}
+          </span>
+                <span className="homeRS__infomartion">
+            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("bachdangtuan.dev@gmail.com")}
           </span>
                 <span className="homeRS__infomartion">
             <i className="bx bx-phone homeRS__icon"/> 0934 01 07 04

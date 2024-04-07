@@ -7,13 +7,11 @@ function ProfileRS() {
         <section className="profileRS sectionRS" id="profile">
             <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("profile")}</h2>
             <p className="profileRS__description">
-                Xin chào, tôi là Bạch Đăng Tuấn, một IT với nhiều năm kinh nghiệm nghề.
-                Tôi tốt nghiệp cử nhân nghành An Toàn Thông Tin tại trường Học Viện Kĩ Thuật Mật Mã.
+                {chuyenNgonNgu("- My name is Bach Dang Tuan, an IT engineer with many years of experience.")}
             </p>
+            <p> {chuyenNgonNgu("- I graduated with a bachelor's degree in Information Security from the Academy of Cryptographic Technology.")}</p>
             <p>
-                Tôi là yêu thích công nghệ và luôn trau dồi học hỏi công nghệ mới, ngoài kĩ năng quản trị hệ thống
-                tôi có thể áp dụng kĩ năng, tư duy lập trình để tự động và tối ưu hóa thời gian xử lý, giúp công việc
-                đạt hiệu quả.
+                {chuyenNgonNgu("- I love technology and always cultivate and learn new technology. In addition to system administration skills, I can apply programming skills and thinking to automate and optimize processing time, helping businesses achieving efficiency.")}
             </p>
         </section>
 

@@ -1,7 +1,9 @@
 import React from "react";
 import dataInter from "./dataInter";
+import {useTranslate} from "../../../../i18n/translate";
 
 function InterestRS() {
+    const chuyenNgonNgu = useTranslate()
     const data = dataInter.map((data) => {
         return (
             <div key={data.name} style={{marginBottom: "1rem"}}>
@@ -27,7 +29,7 @@ function InterestRS() {
     })
     return (
         <section className="interestsRS sectionRS" id="interests">
-            <h2 className="sectionRS-title text-h2">Developing Application for Work</h2>
+            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("DEVELOPING APPLICATION FOR WORK")}</h2>
             <div className="interestsRS__container">
                 {data}
             </div>

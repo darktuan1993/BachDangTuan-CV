@@ -1,7 +1,9 @@
 import React from "react";
 import dataExp from "./dataExp";
+import {useTranslate} from "../../../../i18n/translate";
 
 function ExperienceRS() {
+    const chuyenNgonNgu = useTranslate()
     const data = dataExp.map((data) => {
         return (
             <div key={data.title}>
@@ -15,17 +17,21 @@ function ExperienceRS() {
                             <span className="experienceRS__company"> ({data.times})</span>
                         </h3>
                         <a href={data.link} target="_blank" rel="noreferrer"
-                           className="experienceRS__company">{data.link}</a>
-                        <p className="experienceRS__description" > Position: {data.position}</p>
-                        <p className="experienceRS__description">{data.usedTech}</p>
-                        <p className="experienceRS__description">{data.descripttion}</p>
-                        <p className="experienceRS__description">{data.descripttion2}</p>
-                        <p className="experienceRS__description">{data.descripttion3}</p>
-                        <p className="experienceRS__description">{data.descripttion4}</p>
-                        <p className="experienceRS__description">{data.descripttion6}</p>
-                        <p className="experienceRS__description">{data.descripttion7}</p>
-                        <p className="experienceRS__description">{data.descripttion8}</p>
-                        <p className="experienceRS__description">{data.descripttion5}</p>
+                           className="experienceRS__company"> Website: <i>{data.link} </i>  </a>
+                        <p className="experienceRS__description">{chuyenNgonNgu("Position: ")}
+                            <b>
+                                {chuyenNgonNgu(data.position)}
+                            </b>
+                        </p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.usedTech)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion2)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion3)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion4)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion6)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion7)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion8)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion5)}</p>
                     </div>
                 </div>
             </div>
@@ -33,7 +39,7 @@ function ExperienceRS() {
     });
     return (
         <section className="experienceRS sectionRS" id="experience">
-            <h2 className="sectionRS-title text-h2">Experience</h2>
+            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("EXPERIENCE")}</h2>
             <div className="experienceRS__container bd-gridRS">{data}</div>
         </section>
     );

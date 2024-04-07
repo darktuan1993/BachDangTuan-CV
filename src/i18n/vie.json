@@ -1,17 +1,33 @@
-
-
-
 {
-
   "profile": "Lời giới thiệu",
   "social": "Liên hệ",
+  "Education": "Đào Tạo",
+  "Interests": "Sở Thích",
+  "EXPERIENCE": "Kinh Nghiệm làm việc",
+  "DEVELOPING APPLICATION FOR WORK": "Phát triển ứng dụng cho công việc",
 
-  "name": "BẠCH ĐĂNG TUẤN",
-  "diachi": "Hoàng Mai, Hà Nội",
-  "download": "Tải CV",
-  "diachi:": "Hoàng Mai, Hà Nội",
-  "email": "bachdangtuan.dev@gmail.com",
+  "- My name is Bach Dang Tuan, an IT engineer with many years of experience.": "- Tôi tên là Bạch Đăng Tuấn, một kĩ sư IT với nhiều năm kinh nghiệm nghề.",
+  "- I graduated with a bachelor's degree in Information Security from the Academy of Cryptographic Technology.": "- Tôi tốt nghiệp cử nhân chuyên ngành An toàn thông tin tại Học Viện Kỹ Thuật Mật Mã.",
+  "- I love technology and always cultivate and learn new technology. In addition to system administration skills, I can apply programming skills and thinking to automate and optimize processing time, helping businesses achieving efficiency.": "- Tôi yêu thích công nghệ và luôn trau dồi, học hỏi công nghệ mới. Ngoài kỹ năng quản trị hệ thống, tôi có thể áp dụng kỹ năng lập trình và tư duy để tự động hóa và tối ưu hóa thời gian xử lý, giúp doanh nghiệp đạt hiệu quả.",
+
+  "BACH DANG TUAN": "BẠCH ĐĂNG TUẤN",
+  "Hoang Mai, Ha Noi": "Hoàng Mai, Hà Nội",
+  "download cv": "Tải CV",
+  "bachdangtuan.dev@gmail.com": "bachdangtuan.dev@gmail.com",
   "Skill programmer": "Kĩ năng lập trình",
   "Certificates & Verify": "Chứng chỉ",
-  "more": "xem thêm"
+  "more": "xem thêm",
+
+  "Position: ": "Vị trí: ",
+  "- Plan new architecture (draw flow activity diagram, architectural connection model of High Availability application)": "- Lên kế mô hình hoạt động đảm bảo tính sẵn sàng của hệ thống khi triển khai dự án mới, số lượng server cần thiết và nền tảng vận hành",
+  "- Management of HIS/EMR application for 25 company projects for hospitals on On-premise platform, Cloud Computing": "- Quản trị app HIS/EMR 25 dự án của cty cho các bệnh viện  trên nền tảng On-premise, điện toán đám mây.(4 dự án trên AWS, 2 dự án chạy cloud Sunteco và Viettel Cloud)",
+  "- Build centralized monitoring alert system Prometheus for ~400 VMs": "- Xây dựng hệ thống cảnh báo giám sát tập trung Prometheus cho ~400 VM, 3500 service container",
+  "- Setup, Fix, Tuning job build CI/CD Jenkins for project build": "- Triển khai cài đặt, sửa lỗi, tunning job build CI/CD Jenkins cho các dự án",
+  "- Build Ansible / Gitlab CD system for managing virtual machines (application initialization, operation server,..)": "- Xây dựng hệ thống Ansible / Gitlab CD cho việc quản lý máy chủ ứng dụng ",
+  "- Setup HA, Tuning OS, tuning configuration of services (Nginx, Haproxy, Redis, RabbitMQ, Logstash, OpenSearch...)": "- Vận hành và cài đặt hệ thống High Availability, Tunning, Hardering các dịch vụ (Nginx OSS, Haproxy , Redis Cache, RabbitMQ, Logstash, Prometheus,... ",
+  "- Developing website to manage server list, report server resource statistics": "- Phát triển website quản trị danh sách máy chủ, xuất báo cáo tài nguyên máy chủ",
+  "- Manage Windows Server, integrate wifi authentication, VPN client": "Quản lý máy chủ windowns DNS, tích hợp Single Sign One (SSO) 1 số dịch vụ như wifi, VPN client, Lưu trữ NAS synology",
+  "- Training, support team members": "- Đào tạo, hướng dẫn, định hướng thành viên trong team"
+
+
 }

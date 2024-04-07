@@ -1,7 +1,9 @@
 import React from "react";
 import dataWorks from "./dataWork";
+import {useTranslate} from "../../../../i18n/translate";
 
 function Work() {
+    const chuyenNgonNgu = useTranslate()
   const dataWork = dataWorks.map((data) => {
     return ( 
    <div key={data.eduTitle}>
@@ -21,7 +23,7 @@ function Work() {
   });
   return (
     <section className="educationRS sectionRS" id="education">
-      <h2 className="sectionRS-title text-h2">Education</h2>
+      <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("Education")}</h2>
 
       <div className="educationRS__container bd-gridRS">{dataWork}</div>
     </section>

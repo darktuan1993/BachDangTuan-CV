@@ -1,8 +1,9 @@
 import React from "react";
 import dataSkills from "./dataSkills";
 import "./Skills.css";
-
+import {useTranslate} from "../../../../i18n/translate";
 function HobbieRS() {
+    const chuyenNgonNgu = useTranslate()
     const dataLeft = dataSkills.dataSkillsLeft.map((data) => {
         return (
             <li key={data.id} className="skillsRS__name">
@@ -26,7 +27,7 @@ function HobbieRS() {
 
     return (
         <section className="skillsRS sectionRS" id="skills">
-            <h2 className="sectionRS-title text-h2">Interests</h2>
+            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("Interests")}</h2>
             <div className="skillsRS__content bd-gridRS">
                 <ul className="skillsRS__data"> {dataLeft}</ul>
                 <ul className="skillsRS__data">{dataRight}</ul>
