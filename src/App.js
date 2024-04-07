@@ -1,13 +1,21 @@
 import "./App.css";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 
 import Resume from "./components/Resume/Resume";
+import Certification from "./components/Certification/Cert";
 
-import i18n from "i18next";
 function App() {
 
-  return (
-        <Resume />
-  );
+    return (
+
+        <Router>
+            <div className="App">
+                <Route path="/" exact component={Resume}/>
+                <Route path="/certification" component={Certification}/>
+            </div>
+        </Router>
+
+    );
 }
 
 export default App;

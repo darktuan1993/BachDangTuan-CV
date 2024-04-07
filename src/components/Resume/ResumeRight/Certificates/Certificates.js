@@ -22,7 +22,7 @@ function CertificateRS() {
         <section className="certificateRS sectionRS" id="certificates">
             <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("Certificates & Verify")}</h2>
             {data}
-           <a href="cert">== {chuyenNgonNgu("more")} == </a>
+           <a href="certification">== {chuyenNgonNgu("more")} == </a>
         </section>
     );
 }

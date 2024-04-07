@@ -13,11 +13,8 @@ function ResumeRight() {
         <div className="resume__right">
             <ProfileRS/>
             <ExperienceRS/>
-            {/*<CertificateRS/>*/}
-            {/*<ReferenceRS/>*/}
-            {/*<LanguageRS/>*/}
             {/*<EducationRS/>*/}
-            {/*<InterestRS/>*/}
+            <InterestRS/>
         </div>
     );
 }

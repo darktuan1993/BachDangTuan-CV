@@ -263,6 +263,10 @@ img {
     margin-left: var(--mb-3-rs);
     margin-right: var(--mb-3-rs);
 }
+.bd-containerCert {
+    margin-left: var(--mb-3-rs);
+    margin-right: var(--mb-3-rs);
+}
 
 .bd-gridRS {
     display: grid;
@@ -656,6 +660,14 @@ img {
     .resume {
         display: grid;
         grid-template-columns: 0.5fr 1fr;
+        background-color: var(--container-color-rs);
+        box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
+    }
+
+    .certfication {
+        text-align: center;
+        /*display: grid;*/
+        /*grid-template-columns: 0.5fr 1fr;*/
         background-color: var(--container-color-rs);
         box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
     }
