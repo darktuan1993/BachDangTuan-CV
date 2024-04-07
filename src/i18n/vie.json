@@ -21,13 +21,19 @@
   "Position: ": "Vị trí: ",
   "- Plan new architecture (draw flow activity diagram, architectural connection model of High Availability application)": "- Lên kế mô hình hoạt động đảm bảo tính sẵn sàng của hệ thống khi triển khai dự án mới, số lượng server cần thiết và môi trường triển khai ứng dụng",
   "- Management of HIS/EMR application for 25 company projects for hospitals on On-premise platform, Cloud Computing": "- Quản trị app HIS/EMR 25 dự án của cty cho các bệnh viện  trên nền tảng On-premise, điện toán đám mây.(4 dự án trên AWS, 2 dự án chạy cloud Sunteco và Viettel Cloud)",
-  "- Build centralized monitoring alert system Prometheus for ~400 VMs": "- Xây dựng hệ thống cảnh báo giám sát tập trung Prometheus cho ~400 VM, 3500 service container",
+  "- Build centralized monitoring alert system Prometheus for ~400 VMs": "- Xây dựng hệ thống cảnh báo giám sát tập trung với Prometheus cho ~400 VM, 3500 service container, giám sát log Loki, show querry chậm với databases PostgresSQL",
   "- Setup, Fix, Tuning job build CI/CD Jenkins for project build": "- Triển khai cài đặt, sửa lỗi, tunning job build CI/CD Jenkins cho các dự án",
   "- Build Ansible / Gitlab CD system for managing virtual machines (application initialization, operation server,..)": "- Xây dựng hệ thống Ansible / Gitlab CD cho việc quản lý máy chủ ứng dụng ",
-  "- Setup HA, Tuning OS, tuning configuration of services (Nginx, Haproxy, Redis, RabbitMQ, Logstash, OpenSearch...)": "- Vận hành và cài đặt hệ thống High Availability, Tunning, Hardering các dịch vụ (Nginx OSS, Haproxy , Redis Cache, RabbitMQ, Logstash, Prometheus,... ",
-  "- Developing website to manage server list, report server resource statistics": "- Phát triển website quản trị danh sách máy chủ, xuất báo cáo tài nguyên máy chủ",
-  "- Manage Windows Server, integrate wifi authentication, VPN client": "Quản lý máy chủ windowns DNS, tích hợp Single Sign One (SSO) 1 số dịch vụ như wifi, VPN client, Lưu trữ NAS synology",
-  "- Training, support team members": "- Đào tạo, hướng dẫn, định hướng thành viên trong team"
+  "- Setup HA, Tuning OS, tuning configuration of services (Nginx, Haproxy, Redis, RabbitMQ, Logstash, OpenSearch...)": "- Vận hành và cài đặt, upgrade hệ thống High Availability, Tunning OS, Hardening OS , tuning config (Nginx OSS, Haproxy , Redis Cache, RabbitMQ, Logstash, Prometheus,...)",
+  "- Developing website to manage server list, report server resource statistics": "- Phát triển website quản trị danh sách máy chủ, xuất báo cáo tài nguyên máy chủ, quản lý lịch backup databases (ngày giờ hoàn thành / dung lượng)",
+  "- Manage Windows Server, integrate wifi authentication, VPN client": "- Viết các script backup file, databases. Quản lý máy chủ windowns DNS, tích hợp Single Sign One (SSO) 1 số dịch vụ như wifi, VPN client, Lưu trữ NAS synology",
+  "- Training, support team members": "- Đào tạo, hướng dẫn, định hướng thành viên trong team",
+
+
+  "- Operate and administer multiple Nginx plus load balancing servers (Topup Billing, EFIN projects,... connected to banks)": "- Quản trị và vận hành máy chủ HA Nginx Plus Load balancing các dự án Topup Billing, EFIN,.. kết nối tới các bank ",
+  "- Deploy, Setup Gitlab CI/CD Ansible solution for nginx plus config": "- Triển khai cài đặt giải pháp Gitlab CI/CD - Ansible automation cho việc tự động triển khai cấu hình nginx ",
+  "- Write a tool to automatically install agent software (nagios, wazuh,...) to serve the installation of 500-1000 servers": "- Viết các loại tool cài đặt tự động phần mềm giám sát (nagios agent, wazuh cho khoảng 500-1000 máy chủ",
+  "- Deploy gitlab CI / Ansible for DNS server": "- Triển khai giải pháp Gitlab CI/ Ansible quản trị cho máy chủ DNS Server "
 
 
 }

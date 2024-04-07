@@ -1,13 +1,15 @@
 const dataExp = [
-    // {
-    //     title: "VNPAY-Công Ty Cổ Phần Thanh Toán Việt Nam",
-    //     times: "10/2023 -  Present",
-    //     link: "https://vnpay.vn",
-    //     usedTech: "",
-    //     descripttion: "",
-    //     line: "",
-    //     position: "",
-    // },
+    {
+        title: "VNPAY-Công Ty Cổ Phần Thanh Toán Việt Nam",
+        times: "10/2023 -  Present",
+        link: "https://vnpay.vn",
+        usedTech: "- Operate and administer multiple Nginx plus load balancing servers (Topup Billing, EFIN projects,... connected to banks)",
+        descripttion: "- Deploy, Setup Gitlab CI/CD Ansible solution for nginx plus config",
+        descripttion2: "- Write a tool to automatically install agent software (nagios, wazuh,...) to serve the installation of 500-1000 servers",
+        descripttion3: "- Deploy gitlab CI / Ansible for DNS server",
+        line: "",
+        position: "System Engineer / SRE ",
+    },
     {
         title: "Isofh MedTech Company",
         times: "8/2022 -  10/2023",
