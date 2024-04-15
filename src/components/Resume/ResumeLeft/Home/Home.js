@@ -55,7 +55,7 @@ function HomeRS(props) {
         <div className="homeRS__container sectionRS bd-gridRS">
             <div className="homeRS__data bd-gridRS">
                 <img src={me} alt="avt" className="homeRS__img"/>
-                <h1 className="homeRS__title text-h1">{chuyenNgonNgu("BACH DANG TUAN")}</h1>
+                <h1 className="homeRS__title text-h1">{chuyenNgonNgu("NGUYEN NGOC HUY")}</h1>
                 <h2 className="homeRS__profession text-h3">Devops / SRE / System Admin </h2>
                 <div className="button-download">
                     <button title="Generate PDF" id="resume-button" className="btn-grad"
@@ -66,16 +66,16 @@ function HomeRS(props) {
             </div>
             <div className="homeRS__address bd-gridRS">
                 <span className="homeRS__infomartion">
-            <i className="bx bx-calendar homeRS__icon"/> 27-02-1993
+            <i className="bx bx-calendar homeRS__icon"/> x-x-1990
           </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-map homeRS__icon"/> {chuyenNgonNgu("Hoang Mai, Ha Noi")}
+            <i className="bx bx-map homeRS__icon"/> {chuyenNgonNgu("Long Bien, Ha Noi")}
           </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("bachdangtuan.dev@gmail.com")}
+            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("elvizhuy@gmail.com")}
           </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-phone homeRS__icon"/> 0934 01 07 04
+            <i className="bx bx-phone homeRS__icon"/> 093xxxxxxx
           </span>
             </div>
 
