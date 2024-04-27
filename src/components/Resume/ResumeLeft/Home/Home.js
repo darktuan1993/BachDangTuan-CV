@@ -1,5 +1,6 @@
 import React from "react";
 import me from "../../../../img/me.png";
+import tuan from "../../../../img/tuan.jpg";
 import {clickGene} from "../../../Download/downloadCV"
 import pdf from "../../../Download/bachdangtuan-cv.pdf"
 import i18n from "i18next";
@@ -47,14 +48,14 @@ function HomeRS(props) {
             id="theme-button"
         />
         <div className="change-language">
-            <select onChange={changeLanguage}>
+            <select style={{border: "20px", borderRadius: "10px"}} onChange={changeLanguage}>
                 <option value="eng">English</option>
                 <option value="vie">Tiếng Việt</option>
             </select>
         </div>
         <div className="homeRS__container sectionRS bd-gridRS">
             <div className="homeRS__data bd-gridRS">
-                <img src={me} alt="avt" className="homeRS__img"/>
+                <img src={tuan} alt="avt" className="homeRS__img"/>
                 <h1 className="homeRS__title text-h1">{chuyenNgonNgu("BACH DANG TUAN")}</h1>
                 <h2 className="homeRS__profession text-h3">Devops / SRE / System Admin </h2>
                 <div className="button-download">
