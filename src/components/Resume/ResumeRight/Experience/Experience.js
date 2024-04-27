@@ -17,7 +17,7 @@ function ExperienceRS() {
                             <span className="experienceRS__company"> ({data.times})</span>
                         </h3>
                         <a href={data.link} target="_blank" rel="noreferrer"
-                           className="experienceRS__company"> Website: <i>{data.link} </i>  </a>
+                           className="experienceRS__company"> Website: <i>{data.link} </i> </a>
                         <p className="experienceRS__description">{chuyenNgonNgu("Position: ")}
                             <b>
                                 {chuyenNgonNgu(data.position)}
@@ -25,13 +25,14 @@ function ExperienceRS() {
                         </p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.usedTech)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion1)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion2)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion3)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion4)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion5)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion6)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion7)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion8)}</p>
-                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion5)}</p>
                     </div>
                 </div>
             </div>

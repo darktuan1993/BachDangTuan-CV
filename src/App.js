@@ -11,7 +11,7 @@ function App() {
         <Router>
             <div className="App">
                 <Route path="/" exact component={Resume}/>
-                <Route path="/certification" component={Certification}/>
+                {/*<Route path="/certification" component={Certification}/>*/}
             </div>
         </Router>
 

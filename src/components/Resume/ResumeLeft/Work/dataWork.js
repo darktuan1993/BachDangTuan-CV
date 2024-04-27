@@ -1,7 +1,7 @@
 const dataWorks =[
     {
-        eduTitle:"Học Viện Kĩ Thuật Mật Mã",
-        eduCourse:"An Toàn Thông Tin",
+        eduTitle:"Academy of Cryptographic Technology",
+        eduCourse:"Information Security",
         eduTimes: "2011-2016",
         line: "educationRS__line"
     },

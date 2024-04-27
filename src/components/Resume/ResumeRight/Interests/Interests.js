@@ -15,8 +15,8 @@ function InterestRS() {
                     <i>
                         {data.purpose}
                     </i>
-                    <p>Kiến trúc</p>
-                    <span> {data.architechture} </span>
+                    <p>Software Architecture: <span> {data.architechture} </span></p>
+
                     <p>
                         Frontend: {data.technologyFE}
                     </p>
@@ -29,7 +29,7 @@ function InterestRS() {
     })
     return (
         <section className="interestsRS sectionRS" id="interests">
-            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("DEVELOPING APPLICATION FOR WORK")}</h2>
+            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("APPLICATION OF RESEARCH & DEVELOPMENT FOR WORK")}</h2>
             <div className="interestsRS__container">
                 {data}
             </div>

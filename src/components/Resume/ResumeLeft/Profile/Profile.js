@@ -7,11 +7,11 @@ function ProfileRS() {
         <section className="profileRS sectionRS" id="profile">
             <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("profile")}</h2>
             <p className="profileRS__description">
-                {chuyenNgonNgu("- My name is Bach Dang Tuan, an IT engineer with many years of experience.")}
+                {chuyenNgonNgu("- My name is Bach Dang Tuan, I am an IT engineer with many years of experience.")}
             </p>
             <p> {chuyenNgonNgu("- I graduated with a bachelor's degree in Information Security from the Academy of Cryptographic Technology.")}</p>
             <p>
-                {chuyenNgonNgu("- I love technology and always cultivate and learn new technology. In addition to system administration skills, I can apply programming skills and thinking to automate and optimize processing time, helping businesses achieving efficiency.")}
+                {chuyenNgonNgu("- A person who has a passion for technology. In addition to system administration skills, I can apply installation and thinking skills to automate and optimize processing times to operate large numbers of servers.")}
             </p>
         </section>
 

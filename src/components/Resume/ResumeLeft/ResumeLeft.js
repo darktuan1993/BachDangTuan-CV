@@ -17,8 +17,8 @@ function ResumeLeft(props) {
             <SocialRS/>
             {/*<ProfileRS />*/}
             {/*<EducationRS/>*/}
-            <SkillRS/>
             <CertificateRS/>
+            <SkillRS/>
             <Work/>
             <HobbieRS/>
         </div>

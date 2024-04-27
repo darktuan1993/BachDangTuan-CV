@@ -7,7 +7,7 @@ const generateResume = () => {
     image: { type: "jpeg", quality: 0.99 },
     pagebreak: { mode: "avoid-all" },
     html2canvas: { scale: 4 },
-    jsPDF: { format: "a4", orientation: "" },
+    jsPDF: { format: "a3", orientation: "" },
   };
   const areaCV = document.getElementById("area-cv");
   html2pdf(areaCV, opt);
