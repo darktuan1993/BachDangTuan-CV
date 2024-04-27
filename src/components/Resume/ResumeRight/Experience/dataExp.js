@@ -1,6 +1,6 @@
 const dataExp = [
     {
-        title: "VNPAY-Công Ty Cổ Phần Thanh Toán Việt Nam",
+        title: "VNPAY - Vietnam Payment Joint Stock Company",
         times: "10/2023 -  Present",
         link: "https://vnpay.vn",
         usedTech: "- Operate and administer multiple Nginx plus load balancing High Availability servers (Topup Billing, EFIN projects,... connected to banks)",

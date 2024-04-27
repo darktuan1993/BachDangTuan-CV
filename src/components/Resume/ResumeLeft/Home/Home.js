@@ -48,8 +48,8 @@ function HomeRS(props) {
         />
         <div className="change-language">
             <select onChange={changeLanguage}>
-                <option value="vie">Tiếng Việt</option>
                 <option value="eng">English</option>
+                <option value="vie">Tiếng Việt</option>
             </select>
         </div>
         <div className="homeRS__container sectionRS bd-gridRS">
