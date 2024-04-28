@@ -27,7 +27,7 @@ const dataExp = [
         descripttion7: "- Deploy HIS/EMR applications on k8s environment and Develop CI/CD on GitOps platform (ArgoCD, Gitlab CI,...).",
         descripttion8: "- Write scripts to periodically backup VM, Data, Windows DNS server administrator, integrate authentication of some wifi services, VPN client, Sysnology NAS storage.",
         line: "",
-        position: "Senior System Admin / Devops",
+        position: "Senior System Admin / Devops Engineer",
     },
     {
         title: "Terralogic Software",

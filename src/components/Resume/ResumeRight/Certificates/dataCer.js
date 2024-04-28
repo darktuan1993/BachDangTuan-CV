@@ -14,7 +14,8 @@ const dataCer = [
     {
         title: "GitLab CI Fundamentals",
         image: "https://www.rancher.com/assets/img/brand-guidelines/assets/logos/png/color/rancher-suse-logo-stacked-color.png",
-        icon: "bx bxl-gitlab skill-icon"
+        icon: "bx bxl-gitlab skill-icon",
+        link: "https://ti-user-certificates.s3.amazonaws.com/72109ec1-52dd-4663-9df4-754a8a1d0bff/83f73559-7cdb-40c4-918b-66f59d989eb6-bach-dang-tuan-bc1c646a-942e-47d3-ba10-c8fc747d662f-certificate.pdf"
     },
     {
         title: "Redis Education Certified",
@@ -25,7 +26,8 @@ const dataCer = [
     {
         title: "Fortinet Certified Associate ",
         image: "https://5.imimg.com/data5/SELLER/Default/2023/6/317454451/XH/JO/OI/46159964/fortinet--500x500.png",
-        icon: "bx bx-certification skill-icon"
+        icon: "bx bx-certification skill-icon",
+        link: "https://credly.com/badges/ae39e201-65f9-424b-8527-da066aea6898"
     },
     {
         title: "CCNA Routing & Switching ",
