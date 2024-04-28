@@ -7,6 +7,7 @@ import ReferenceRS from "./References/References";
 import "./ResumeRight.css";
 import ProfileRS from "../ResumeLeft/Profile/Profile";
 import EducationRS from "../ResumeLeft/Education/Education";
+import References from "./References/References";
 
 function ResumeRight() {
     return (
@@ -14,6 +15,7 @@ function ResumeRight() {
             <ProfileRS/>
             <ExperienceRS/>
             {/*<EducationRS/>*/}
+            <References/>
             <InterestRS/>
         </div>
     );
