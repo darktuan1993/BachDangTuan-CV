@@ -8,8 +8,8 @@ const dataSkillsLeft = [
     {
         id: 1,
         dotSkill: "",
-        iconSkill: "bx bx-file skill-icon",
-        nameSkill: " Terraform"
+        iconSkill: "bx bxl-git skill-icon",
+        nameSkill: "  GitSCM"
     },
     {
         id: 1,

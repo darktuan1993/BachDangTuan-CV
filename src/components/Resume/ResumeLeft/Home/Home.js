@@ -73,7 +73,7 @@ function HomeRS(props) {
             <i className="bx bx-map homeRS__icon"/> {chuyenNgonNgu("Hoang Mai, Ha Noi")}
           </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("bachdangtuan.dev@gmail.com")}
+            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("bachdangtuan93@gmail.com")}
           </span>
                 <span className="homeRS__infomartion">
             <i className="bx bx-phone homeRS__icon"/> 0934 01 07 04
