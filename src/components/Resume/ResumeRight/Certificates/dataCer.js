@@ -6,6 +6,12 @@ const dataCer = [
         link: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8760443b-52ec-49f8-b11e-67e4215c09a4-bach-dang-tuan-7340d446-10fd-49fc-93c6-490dda50e909-certificate.pdf"
     },
     {
+        title: "Kubernetes and Cloud Native Associate",
+        image: "https://training.linuxfoundation.org/wp-content/uploads/2022/04/Training_Badge_Prometheus_V2-2-300x300.png",
+        icon: "bx bx-certification skill-icon",
+        link: "https://drive.google.com/file/d/10D4SXAqFutRzQ-yRW7LCl5Ph-kCeazva/view"
+    },
+    {
         title: "Certified Kubernetes Admin ",
         // image: "https://images.credly.com/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
         icon: "bx bxl-kubernetes skill-icon ",
@@ -35,11 +41,11 @@ const dataCer = [
         icon: "bx bx-certification skill-icon",
         link: "https://cp.certmetrics.com/cisco/en/public/verify/credential/418124170073IOWK"
     },
-    {
-        title: "MCITP Certificate",
-        image: "https://media.loveitopcdn.com/3807/microsoft-logo.jpg",
-        icon: "bx bxl-windows skill-icon",
-        link: "https://drive.google.com/file/d/1fvNvbz_WpKxLlu4tqgPRKYDWqg1Vv7V3/view"
-    },
+    // {
+    //     title: "MCITP Certificate",
+    //     image: "https://media.loveitopcdn.com/3807/microsoft-logo.jpg",
+    //     icon: "bx bxl-windows skill-icon",
+    //     link: "https://drive.google.com/file/d/1fvNvbz_WpKxLlu4tqgPRKYDWqg1Vv7V3/view"
+    // },
 ];
 export default dataCer;

@@ -20,8 +20,8 @@ const dataSkillsLeft = [
     {
         id: 1,
         dotSkill: "",
-        iconSkill: "bx bxl-react skill-icon",
-        nameSkill: " React JS"
+        iconSkill: "bx bx-file skill-icon",
+        nameSkill: "Terraform"
     },
 ];
 const dataSkillsRight = [
