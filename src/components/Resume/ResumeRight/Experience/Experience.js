@@ -23,6 +23,11 @@ function ExperienceRS() {
                                 {chuyenNgonNgu(data.position)}
                             </b>
                         </p>
+                        {/* <p className="experienceRS__description">{chuyenNgonNgu("Thành viên trong: ")}
+                            <b>
+                                {chuyenNgonNgu(data.line)}
+                            </b>
+                        </p> */}
                         <p className="experienceRS__description">{chuyenNgonNgu(data.usedTech)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion1)}</p>

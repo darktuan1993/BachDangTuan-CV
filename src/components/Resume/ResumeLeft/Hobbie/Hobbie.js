@@ -1,15 +1,16 @@
 import React from "react";
 import dataSkills from "./dataSkills";
 import "./Skills.css";
-import {useTranslate} from "../../../../i18n/translate";
+import { useTranslate } from "../../../../i18n/translate";
 function HobbieRS() {
     const chuyenNgonNgu = useTranslate()
     const dataLeft = dataSkills.dataSkillsLeft.map((data) => {
         return (
             <li key={data.id} className="skillsRS__name">
-                <span className={data.dotSkill}/>
-                <i className={data.iconSkill}></i>
-                {data.nameSkill}
+                {/* <span className={data.dotSkill}/> */}
+                {/* <i className={data.iconSkill}></i> */}
+                <img src={data.image} alt="Certificate" width="40" height="40" />
+                <span style={{ paddingLeft: "5px" }}>{data.nameSkill}</span>
             </li>
 
         );
@@ -17,9 +18,8 @@ function HobbieRS() {
     const dataRight = dataSkills.dataSkillsRight.map((data) => {
         return (
             <li key={data.id} className="skillsRS__name">
-                <span className={data.dotSkill}/>
-                <i className={data.iconSkill}></i>
-                {data.nameSkill}
+                <img src={data.image} alt="Certificate" width="40" height="40" />
+                <span style={{ paddingLeft: "5px" }}>{data.nameSkill}</span>
             </li>
 
         );

@@ -17,6 +17,7 @@ function Work() {
                         <span className="educationRS__studies">{data.eduCourse}</span>
                         <span className="educationRS__studies">{data.link}</span>
                         <span className="educationRS__year">{data.eduTimes}</span>
+                        
                     </div>
                 </div>
             </div>

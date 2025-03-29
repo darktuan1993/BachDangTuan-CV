@@ -27,27 +27,27 @@
 const dataInter = [
     {
         icon: "bx bx-log-in-circle interestsRS__icon",
-        name: "Web Quản lý thiết bị văn phòng",
-        purpose: "Quản lý số lượng phát hiện thiết bị cấp phát cho nguời dùng, tích hợp LDAP Active Directory, kiểm soát xuất báo cáo thường xuyên trong tháng",
-        architechture: "microservice / containerizing",
-        technologyFE: "Angular 8",
-        technologyBE: "NodeJS 16, Mysql, Redis Memcache, Kubernetes"
+        name: "CÁC ỨNG DỤNG KHÁC",
+        purpose: "Viết các ứng dụng web/api phục vụ cho công việc quản lý, thống kê, xuất báo cáo cho công việc quản trị vận hành hệ thống",
+        architechture: "containerizing",
+        technologyFE: "React/Angular",
+        technologyBE: "NodeJS"
     },
     {
         icon: "bx bx-log-in-circle interestsRS__icon",
-        name: "Web quản lý thống kê tên miền, danh sách máy ảo dự án",
-        purpose: "Thống kê số lượng server, theo dõi danh sách domain/subdomain và xuất báo cáo Excel hàng tuần",
-        architechture: "microservice / containerizing",
-        technologyFE: "Angular 14",
-        technologyBE: "NodeJS, Laravel PHP, Mysql, MongoDB, Kubernetes"
+        name: "CÁC ỨNG DỤNG KHÁC",
+        purpose: "Phát triển tính năng khoanh vùng bản đồ cho một dự án BĐS tại Việt Nam",
+        architechture: "containerizing",
+        technologyFE: "Angular 8",
+        technologyBE: "NodeJS, ElasticSearch"
     },
-    // {
-    //     icon: "bx bx-log-in-circle interestsRS__icon",
-    //     name: "CÁC ỨNG DỤNG KHÁC",
-    //     purpose: "",
-    //     architechture: "",
-    //     technologyFE: "",
-    //     technologyBE: ""
-    // },
+    {
+        icon: "bx bx-log-in-circle interestsRS__icon",
+        name: "CÁC ỨNG DỤNG KHÁC",
+        purpose: "Thiết kế và viết api search cho một dự án mạng xã hội tại Việt Nam",
+        architechture: "containerizing",
+        technologyFE: "non",
+        technologyBE: "NodeJS, Rabbit MQ, Redis search"
+    },
 ]
 export default dataInter

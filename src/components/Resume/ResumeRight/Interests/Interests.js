@@ -29,7 +29,7 @@ function InterestRS() {
     })
     return (
         <section className="interestsRS sectionRS" id="interests">
-            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("APPLICATION OF RESEARCH & DEVELOPMENT FOR WORK")}</h2>
+            <h2 className="sectionRS-title text-h2">{chuyenNgonNgu("CÁC KINH NGHIỆM KHÁC")}</h2>
             <div className="interestsRS__container">
                 {data}
             </div>

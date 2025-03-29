@@ -8,11 +8,8 @@ function CertificateRS() {
         return (
 
             <div key={data.title} className="certificateRS__container bd-flex">
-                {/*<img*/}
-                {/*    src={data.image}*/}
-                {/*    alt="Girl in a jacket"*/}
-                {/*    width="30" height="30"/>*/}
-                <i className={data.icon} ></i>
+                <img  src={data.image}alt="Certificate"width="50" height="50"/>
+                {/* <i className={data.icon} ></i> */}
                 <a href={data.link} target="_blank"  className="certificateRS__title text-h4"
                    style={{margin: 0}}>{data.title} <small style={{fontStyle: "italic"}}>(click verify)</small> </a>
             </div>
