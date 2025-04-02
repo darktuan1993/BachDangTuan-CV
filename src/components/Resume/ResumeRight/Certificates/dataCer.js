@@ -14,13 +14,13 @@ const dataCer = [
         link: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8760443b-52ec-49f8-b11e-67e4215c09a4-bach-dang-tuan-ac76fb7e-06e2-486f-a70c-dbe1265b5b4d-certificate.pdf"
     },
     {
-        title: "Kubernetes and Cloud Native Associate",
+        title: "Kubernetes and Cloud Native Associate-(expired)",
         image: getImage("kcna.png"),
         icon: "bx bx-certification skill-icon",
         // link: "https://drive.google.com/file/d/10D4SXAqFutRzQ-yRW7LCl5Ph-kCeazva/view"
     },
     {
-        title: "Certified Kubernetes Application Developer",
+        title: "Certified Kubernetes Application Developer-(expired)",
         image: getImage("ckad.png"),
         icon: "bx bx-certification skill-icon",
         // link: "https://drive.google.com/file/d/10D4SXAqFutRzQ-yRW7LCl5Ph-kCeazva/view"
@@ -53,7 +53,7 @@ const dataCer = [
         title: "Fortinet Certified Associate ",
         image: getImage("fortinet.webp"),
         icon: "bx bx-certification skill-icon",
-        // link: "https://credly.com/badges/ae39e201-65f9-424b-8527-da066aea6898"
+        link: "https://training.fortinet.com/local/cert/my/certificate.php?badge=85"
     },
     {
         title: "CCNA Routing & Switching ",

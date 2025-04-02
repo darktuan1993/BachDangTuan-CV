@@ -38,6 +38,12 @@ function ExperienceRS() {
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion6)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion7)}</p>
                         <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion8)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion9)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion10)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion14)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion11)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion12)}</p>
+                        <p className="experienceRS__description">{chuyenNgonNgu(data.descripttion13)}</p>
                     </div>
                 </div>
             </div>

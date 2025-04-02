@@ -16,7 +16,7 @@ function ResumeRight() {
             <ExperienceRS/>
             {/*<EducationRS/>*/}
             {/* <References/> */}
-            <InterestRS/>
+            {/* <InterestRS/> */}
         </div>
     );
 }
