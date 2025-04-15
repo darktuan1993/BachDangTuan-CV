@@ -12,7 +12,7 @@ function EducationRS() {
                     </div>
                     <div className="educationRS__data bd-gridRS">
                         <h3 className="educationRS__title text-h3"> {data.eduTitle}</h3>
-                        <span className="educationRS__studies">Chuyên nghành: {data.eduCourse}</span>
+                        <span className="educationRS__studies">Rank: {data.eduCourse}</span>
                         <span className="educationRS__year">{data.eduTimes}</span>
                     </div>
                 </div>

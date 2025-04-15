@@ -1,10 +1,10 @@
 import React from "react";
 import me from "../../../../img/me.png";
 import tuan from "../../../../img/tuan.jpg";
-import {clickGene} from "../../../Download/downloadCV"
+import { clickGene } from "../../../Download/downloadCV"
 import pdf from "../../../Download/bachdangtuan-cv.pdf"
 import i18n from "i18next";
-import {useTranslate} from "../../../../i18n/translate";
+import { useTranslate } from "../../../../i18n/translate";
 
 
 function HomeRS(props) {
@@ -48,36 +48,39 @@ function HomeRS(props) {
             id="theme-button"
         />
         <div className="change-language">
-            <select style={{border: "20px", borderRadius: "10px"}} onChange={changeLanguage}>
+            <select style={{ border: "20px", borderRadius: "10px" }} onChange={changeLanguage}>
                 <option value="eng">English</option>
                 <option value="vie">Tiếng Việt</option>
             </select>
         </div>
         <div className="homeRS__container sectionRS bd-gridRS">
             <div className="homeRS__data bd-gridRS">
-                <img src={me} alt="avt" className="homeRS__img"/>
+                <img src={me} alt="avt" className="homeRS__img" />
                 <h1 className="homeRS__title text-h1">{chuyenNgonNgu("BACH DANG TUAN")}</h1>
                 <h2 className="homeRS__profession text-h3">Devops / SRE / SysAdmin / Solutions Architecture </h2>
                 <div className="button-download">
                     <button title="Generate PDF" id="resume-button" className="btn-grad"
-                            onClick={clickGene}>
+                        onClick={clickGene}>
                         {chuyenNgonNgu("download cv")}
                     </button>
                 </div>
             </div>
             <div className="homeRS__address bd-gridRS">
                 <span className="homeRS__infomartion">
-            <i className="bx bx-calendar homeRS__icon"/> 27-02-1993
-          </span>
+                    <i className="bx bx-calendar homeRS__icon" /> 27-02-1993
+                </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-map homeRS__icon"/> {chuyenNgonNgu("Hoang Mai, Ha Noi")}
-          </span>
+                    <i className="bx bx-map homeRS__icon" /> {chuyenNgonNgu("Hoang Mai, Ha Noi")}
+                </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-envelope homeRS__icon"/> {chuyenNgonNgu("bachdangtuan93@gmail.com")}
-          </span>
+                    <i className="bx bx-envelope homeRS__icon" /> {chuyenNgonNgu("bachdangtuan93@gmail.com")}
+                </span>
                 <span className="homeRS__infomartion">
-            <i className="bx bx-phone homeRS__icon"/> 0934 01 07 04
-          </span>
+                    <i className="bx bx-phone homeRS__icon" /> 0934 01 07 04
+                </span>
+                <span className="homeRS__infomartion">
+                    <i className="bx bx-globe homeRS__icon" /> <a href="https://cloudnative-vn.com/" target="_blank">https://cloudnative-vn.com/</a>
+                </span>
             </div>
 
 
