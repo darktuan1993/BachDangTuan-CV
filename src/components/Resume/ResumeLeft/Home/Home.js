@@ -57,7 +57,7 @@ function HomeRS(props) {
             <div className="homeRS__data bd-gridRS">
                 <img src={me} alt="avt" className="homeRS__img" />
                 <h1 className="homeRS__title text-h1">{chuyenNgonNgu("BACH DANG TUAN")}</h1>
-                <h2 className="homeRS__profession text-h3">Devops / SRE / SysAdmin / Solutions Architecture </h2>
+                <h2 className="homeRS__profession text-h3">Sr.Devops / Sr.SRE / Systems Architecture </h2>
                 <div className="button-download">
                     <button title="Generate PDF" id="resume-button" className="btn-grad"
                         onClick={clickGene}>
