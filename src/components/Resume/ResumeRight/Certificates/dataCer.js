@@ -44,10 +44,10 @@ const dataCer = [
         link: "https://ti-user-certificates.s3.amazonaws.com/72109ec1-52dd-4663-9df4-754a8a1d0bff/83f73559-7cdb-40c4-918b-66f59d989eb6-bach-dang-tuan-bc1c646a-942e-47d3-ba10-c8fc747d662f-certificate.pdf"
     },
     {
-        title: "Istio Administrator by Tetrate",
+        title: "Istio Fundamentals by Tetrate",
         image: getImage("istio.png"),
         icon: "bx bx-certification skill-icon",
-        // link: "https://academy.tetrate.io/courses/istio-fundamentals"
+        link: "https://academy.tetrate.io/certificates/v6azjlgxkf"
     },
     {
         title: "Fortinet Certified Associate ",
