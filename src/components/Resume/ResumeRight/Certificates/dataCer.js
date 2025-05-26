@@ -2,16 +2,16 @@
 const getImage = (imageName) => require(`./image/${imageName}`);
 const dataCer = [
     {
-        title: "Certified Kubernetes Admin ",
-        image: getImage("cka.png"),
-        icon: "bx bxl-kubernetes skill-icon ",
-        link: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8760443b-52ec-49f8-b11e-67e4215c09a4-bach-dang-tuan-afdd782c-c6f2-4560-8f04-c5cd86278533-certificate.pdf"
-    },
-    {
         title: "Certified Kubernetes Security Specialist",
         image: getImage("cks.png"),
         icon: "bx bx-certification skill-icon",
         link: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8760443b-52ec-49f8-b11e-67e4215c09a4-bach-dang-tuan-ac76fb7e-06e2-486f-a70c-dbe1265b5b4d-certificate.pdf"
+    },
+    {
+        title: "Certified Kubernetes Admin ",
+        image: getImage("cka.png"),
+        icon: "bx bxl-kubernetes skill-icon ",
+        link: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8760443b-52ec-49f8-b11e-67e4215c09a4-bach-dang-tuan-afdd782c-c6f2-4560-8f04-c5cd86278533-certificate.pdf"
     },
     {
         title: "Kubernetes and Cloud Native Associate-(expired)",

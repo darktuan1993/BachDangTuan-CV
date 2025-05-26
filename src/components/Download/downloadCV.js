@@ -7,7 +7,7 @@ const generateResume = () => {
     filename: "bachdangtuan-cv.pdf",
     image: { type: "jpeg", quality: 1 },
     pagebreak: { mode: "avoid-all" },
-    html2canvas: { scale: 4, useCORS: true },
+    html2canvas: { scale: 2, useCORS: true },
     jsPDF: { format: "a3", orientation: "portrait" }
   };
   const areaCV = document.getElementById("area-cv");
