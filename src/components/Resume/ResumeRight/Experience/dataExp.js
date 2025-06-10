@@ -4,7 +4,7 @@ const dataExp = [
         times: "7/2024 -  nay",
         link: "https://www.bravo.com.vn/",
         usedTech: "- Thiết kế hệ thống dịch vụ cho thuê ERP/SaaS nền tảng Cloud Native với đảm bảo mở rộng theo quy mô, tính bảo mật và tính sẵn sàng, nâng cấp định kỳ theo chuẩn benchmark từ CNCF và Rancher",
-        descripttion1: "- Quản trị ~1000 namespace của dự án (mỗi môi trường ~250-300 namespace)",
+        descripttion1: "- Quản trị nhiều namespace của dự án",
         descripttion2: "- Viết các ứng dụng Nodejs/Golang làm việc với API các dịch vụ (Argo CD API, Gitlab API, Hashicorp Vault API, Kubeapi-server...) phát triển các tính năng tự động hóa.",
         descripttion3: "- Triển khai và viết quy trình quản trị hệ thống Load balancing, cluster CEPH storage, Logging ELK Stack-Logstash",
         descripttion4: "- Xây dựng luồng CI/CD theo tiêu chuẩn DevSecOps",
